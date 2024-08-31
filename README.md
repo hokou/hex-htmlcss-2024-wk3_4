@@ -2,8 +2,8 @@
 
 ## 任務連結
 
-- 主線任務 page：[week03](https://hokou.github.io/hex-htmlcss-2024-wk3_4/dist)
-- 主線任務 page：[week04](https://hokou.github.io/hex-htmlcss-2024-wk3_4/dist)
+- 主線任務 page：[week03](https://hokou.github.io/hex-htmlcss-2024-wk3_4/)
+- 主線任務 page：[week04](https://hokou.github.io/hex-htmlcss-2024-wk3_4/)
 
 ## 網頁切版直播班 Vite 範例
 
