@@ -1,0 +1,50 @@
+.header {
+  color: #ffffff;
+  padding: 16px 0;
+  width: 100%;
+  @include mobile-larger{
+    padding-bottom: 0;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 48px;
+    @include mobile-larger{
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include mobile-larger{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .nav {
+    font-size: 20px;
+    display: flex;
+    @include mobile-larger{
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    &-item {
+      text-align: center;
+      @include mobile-larger{
+        font-size: 16px;
+        width: 50%;
+        border: solid 1px white;
+      }
+    }
+    &-item a {
+      padding: 8px 32px;
+      @include mobile-larger{
+        padding: 12px 0;
+      }
+    }
+  }
+}

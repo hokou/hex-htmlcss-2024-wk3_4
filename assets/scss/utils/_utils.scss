@@ -1,0 +1,26 @@
+
+/* utilities */
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+  @include pad {
+    max-width: 720px;
+  }
+  @include mobile-larger {
+    padding: 0;
+  }
+}
+
+.bg-dark {
+  background: $primary;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
