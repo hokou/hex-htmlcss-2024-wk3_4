@@ -3,7 +3,11 @@
 ## 任務連結
 
 - 主線任務 page：[week03](https://hokou.github.io/hex-htmlcss-2024-wk3_4/)
-- 主線任務 page：[week04](https://hokou.github.io/hex-htmlcss-2024-wk3_4/)
+- 主線任務 page：[week04](https://hokou.github.io/hex-htmlcss-2024-wk3_4/stores.html)
+
+## 參考資料
+
+- [2024-web-layout-training-code](https://github.com/hexschool/2024-web-layout-training-code)
 
 ## 網頁切版直播班 Vite 範例
 
