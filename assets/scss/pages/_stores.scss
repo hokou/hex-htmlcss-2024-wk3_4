@@ -1,0 +1,61 @@
+.store {
+  padding-top: 96px;
+  padding-bottom: 80px;
+  @include pad{
+    padding-top: 80px;
+  }
+  @include mobile-larger{
+    padding-top: 40px;
+    padding-bottom: 64px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  &-title {
+    font-size: 48px;
+    font-weight: bold;
+    border-left: 8px solid $primary;
+    padding-left: 16px;
+    margin-bottom: 32px;
+    @include mobile-larger{
+      font-size: 24px;
+      margin-bottom: 24px;
+    }
+  }
+  &-search {
+    display: flex;
+    margin-bottom: 40px;
+    @include mobile-larger{
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    &-label {
+      font-size: 24px;
+      margin-right: 16px;
+      @include mobile-larger{
+        font-size: 16px;
+        margin-right: 8px;
+      }
+    }
+    &-select {
+      font-size: 18px;
+      flex-grow: 1;
+      border-radius: 0px;
+      border: #ced4da 1px solid;
+      color: #495057;
+      padding: 6px 12px;
+      appearance: none;
+      position: relative;
+      background: url(../images/select-arrow.svg);
+      background-size: 10px;
+      background-repeat: no-repeat;
+      background-position: 95% center;
+      max-width: 304px;
+    }
+  }
+}
+
+.store-search-select:focus {
+  outline: solid 1px $primary;
+  border: none;
+  box-shadow: 0 0px 0px 4px rgba(170, 6, 1, 0.3);
+}

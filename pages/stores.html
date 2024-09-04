@@ -12,7 +12,18 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    
+    <div class="store container">
+      <h1 class="store-title">門市據點</h1>
+      <div class="store-search">
+        <label for="area" class="store-search-label">選擇地區</label>
+        <select name="" id="area" class="store-search-select">
+          <option value="" disabled>選擇地區</option>
+          <option value="Taipei City" selected>台北市</option>
+          <option value="Taichung City">台中市</option>
+          <option value="Kaohsiung City">高雄市</option>
+        </select>
+      </div>
+    </div>
     <%- include('./layout/footer'); -%>
     <script type="module" src="../main.js"></script>
   </body>
